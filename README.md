@@ -13,19 +13,36 @@ In their existing market, the sales team has classified all customers into 4 seg
 You are required to help the manager to predict the right group of the new customers.
 
 ## Neural Network Model
-
-Include the neural network model diagram.
+![image](https://user-images.githubusercontent.com/75235090/189541069-9f65e394-feff-4760-953f-73050686c3d5.png)
 
 ## DESIGN STEPS
 
 ### STEP 1:
-Load the csv file and then use the preprocessing steps to clean the data
+Load the dataset.
 
 ### STEP 2:
-Split the data to training and testing
+Checking the null values and converting the string datatype into integer or float datatype using label encoder.
 
 ### STEP 3:
-Train the data and then predict using Tensorflow
+Split the dataset into training and testing.
+
+### STEP 4:
+Create MinMaxScaler objects,fit the model and transform the data.
+
+### STEP 5:
+Build the Neural Network Model and compile the model.
+
+### STEP 6:
+Train the model with the training data.
+
+### STEP 7:
+Plot the training loss and validation loss.
+
+### STEP 8:
+Predicting the model through classification report,confusion matrix.
+
+### STEP 9:
+Predict the new sample data.
 
 ## PROGRAM
 ```python3
@@ -176,7 +193,7 @@ print(le.inverse_transform(x_single_prediction))
 ```
 ## Dataset Information
 
-Include screenshot of the dataset
+![image](https://user-images.githubusercontent.com/75235090/189540884-09fa40a4-80b6-4af5-bd10-129307dcb66d.png)
 
 ## OUTPUT
 
@@ -184,16 +201,14 @@ Include screenshot of the dataset
 ![image](https://user-images.githubusercontent.com/75235090/189540081-a152199d-e0f8-4a97-9f57-0c468aefb277.png)
 
 ### Classification Report
-
-Include Classification Report here
+![image](https://user-images.githubusercontent.com/75235090/189540919-2947a8f0-db71-4a38-914b-b2a543992061.png)
 
 ### Confusion Matrix
-
-Include confusion matrix here
-
+![image](https://user-images.githubusercontent.com/75235090/189540955-06fffa49-2605-413d-9753-fc3fb5b4a768.png)
 
 ### New Sample Data Prediction
+![image](https://user-images.githubusercontent.com/75235090/189540821-0ae85371-3e98-4eaa-88c7-cfeb5a226f48.png)
 
-Include your sample input and output here
 
 ## RESULT
+Thus,the neural network classification model for the given dataset is developed.
