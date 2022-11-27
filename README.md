@@ -1,4 +1,6 @@
-# Developing a Neural Network Classification Model
+## EX.NO:02
+## DATE:08.09.2022
+# <p align="center">Developing a Neural Network Classification Model
 
 ## AIM
 
@@ -46,6 +48,8 @@ Predict the new sample data.
 
 ## PROGRAM
 ```python3
+Developed By: PrasannaKumar M
+Register No: 212220230035
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from tensorflow.keras.models import Sequential
